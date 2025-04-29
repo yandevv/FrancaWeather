@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:franca_weather/pages/login_page.dart';
 
 class RegisterPage extends StatefulWidget {
   @override
