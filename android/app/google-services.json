@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1059830292645",
+    "project_id": "franca-weather-9eb1f",
+    "storage_bucket": "franca-weather-9eb1f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059830292645:android:eb4a86855859013accad4c",
+        "android_client_info": {
+          "package_name": "com.example.franca_weather"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALdU56OBW7jDnOBst0KXbELNmWyHCrVoI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
