@@ -57,7 +57,7 @@ class _RegisterPageState extends State<RegisterPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Cadastro'),
+        title: Text('Franca Weather - Register'),
       ),
       body: Padding(
         padding: EdgeInsets.all(16.0),
@@ -71,7 +71,7 @@ class _RegisterPageState extends State<RegisterPage> {
                 });
               },
               decoration: InputDecoration(
-                labelText: 'Nome',
+                labelText: 'Name',
               ),
             ),
             TextField(
@@ -91,7 +91,7 @@ class _RegisterPageState extends State<RegisterPage> {
                 });
               },
               decoration: InputDecoration(
-                labelText: 'Senha',
+                labelText: 'Password',
               ),
               obscureText: true,
             ),
@@ -102,14 +102,14 @@ class _RegisterPageState extends State<RegisterPage> {
                 });
               },
               decoration: InputDecoration(
-                labelText: 'Confirmar Senha',
+                labelText: 'Retype Password',
               ),
               obscureText: true,
             ),
             SizedBox(height: 16.0),
             ElevatedButton(
               onPressed: _register,
-              child: Text('Cadastrar'),
+              child: Text('Register'),
             ),
           ],
         ),

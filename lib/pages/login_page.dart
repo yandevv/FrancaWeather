@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:franca_weather/pages/register_page.dart';
+import 'package:franca_weather/pages/weather_status.dart';
 
 class LoginPage extends StatefulWidget {
   @override
@@ -17,7 +18,10 @@ class _LoginPageState extends State<LoginPage> {
         email: _email,
         password: _password
       );
-      print('conectado');
+      Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(builder: (context) => WeatherStatusPage())
+      );
     } on FirebaseAuthException catch (e) {
       if(e.code == 'user-not-found') {
         _showErrorDialog('No user found for that email.');
